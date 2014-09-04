@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75491B819B8F9330034FF5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75491B719B8F9330034FF5D /* main.m */; };
+		C75491BB19B8F9330034FF5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75491BA19B8F9330034FF5D /* AppDelegate.m */; };
+		C75491BD19B8F9330034FF5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75491BC19B8F9330034FF5D /* Images.xcassets */; };
+		C75491C019B8F9330034FF5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C75491BE19B8F9330034FF5D /* MainMenu.xib */; };
+		C75491CC19B8F9330034FF5D /* Send_To_XBMCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75491CB19B8F9330034FF5D /* Send_To_XBMCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75491C619B8F9330034FF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75491AA19B8F9330034FF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75491B119B8F9330034FF5D;
+			remoteInfo = "Send To XBMC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C75491B219B8F9330034FF5D /* Send To XBMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Send To XBMC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75491B619B8F9330034FF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75491B719B8F9330034FF5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C75491B919B8F9330034FF5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C75491BA19B8F9330034FF5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C75491BC19B8F9330034FF5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C75491BF19B8F9330034FF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C75491C519B8F9330034FF5D /* Send To XBMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send To XBMCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75491CA19B8F9330034FF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75491CB19B8F9330034FF5D /* Send_To_XBMCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Send_To_XBMCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75491AF19B8F9330034FF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75491C219B8F9330034FF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75491A919B8F9320034FF5D = {
+			isa = PBXGroup;
+			children = (
+				C75491B419B8F9330034FF5D /* Send To XBMC */,
+				C75491C819B8F9330034FF5D /* Send To XBMCTests */,
+				C75491B319B8F9330034FF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75491B319B8F9330034FF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75491B219B8F9330034FF5D /* Send To XBMC.app */,
+				C75491C519B8F9330034FF5D /* Send To XBMCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75491B419B8F9330034FF5D /* Send To XBMC */ = {
+			isa = PBXGroup;
+			children = (
+				C75491B919B8F9330034FF5D /* AppDelegate.h */,
+				C75491BA19B8F9330034FF5D /* AppDelegate.m */,
+				C75491BC19B8F9330034FF5D /* Images.xcassets */,
+				C75491BE19B8F9330034FF5D /* MainMenu.xib */,
+				C75491B519B8F9330034FF5D /* Supporting Files */,
+			);
+			path = "Send To XBMC";
+			sourceTree = "<group>";
+		};
+		C75491B519B8F9330034FF5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75491B619B8F9330034FF5D /* Info.plist */,
+				C75491B719B8F9330034FF5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C75491C819B8F9330034FF5D /* Send To XBMCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75491CB19B8F9330034FF5D /* Send_To_XBMCTests.m */,
+				C75491C919B8F9330034FF5D /* Supporting Files */,
+			);
+			path = "Send To XBMCTests";
+			sourceTree = "<group>";
+		};
+		C75491C919B8F9330034FF5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75491CA19B8F9330034FF5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75491B119B8F9330034FF5D /* Send To XBMC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75491CF19B8F9330034FF5D /* Build configuration list for PBXNativeTarget "Send To XBMC" */;
+			buildPhases = (
+				C75491AE19B8F9330034FF5D /* Sources */,
+				C75491AF19B8F9330034FF5D /* Frameworks */,
+				C75491B019B8F9330034FF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Send To XBMC";
+			productName = "Send To XBMC";
+			productReference = C75491B219B8F9330034FF5D /* Send To XBMC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C75491C419B8F9330034FF5D /* Send To XBMCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75491D219B8F9330034FF5D /* Build configuration list for PBXNativeTarget "Send To XBMCTests" */;
+			buildPhases = (
+				C75491C119B8F9330034FF5D /* Sources */,
+				C75491C219B8F9330034FF5D /* Frameworks */,
+				C75491C319B8F9330034FF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75491C719B8F9330034FF5D /* PBXTargetDependency */,
+			);
+			name = "Send To XBMCTests";
+			productName = "Send To XBMCTests";
+			productReference = C75491C519B8F9330034FF5D /* Send To XBMCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75491AA19B8F9330034FF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kyle Howells";
+				TargetAttributes = {
+					C75491B119B8F9330034FF5D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C75491C419B8F9330034FF5D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C75491B119B8F9330034FF5D;
+					};
+				};
+			};
+			buildConfigurationList = C75491AD19B8F9330034FF5D /* Build configuration list for PBXProject "Send To XBMC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75491A919B8F9320034FF5D;
+			productRefGroup = C75491B319B8F9330034FF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75491B119B8F9330034FF5D /* Send To XBMC */,
+				C75491C419B8F9330034FF5D /* Send To XBMCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75491B019B8F9330034FF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75491BD19B8F9330034FF5D /* Images.xcassets in Resources */,
+				C75491C019B8F9330034FF5D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75491C319B8F9330034FF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75491AE19B8F9330034FF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75491BB19B8F9330034FF5D /* AppDelegate.m in Sources */,
+				C75491B819B8F9330034FF5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75491C119B8F9330034FF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75491CC19B8F9330034FF5D /* Send_To_XBMCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75491C719B8F9330034FF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75491B119B8F9330034FF5D /* Send To XBMC */;
+			targetProxy = C75491C619B8F9330034FF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C75491BE19B8F9330034FF5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75491BF19B8F9330034FF5D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75491CD19B8F9330034FF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C75491CE19B8F9330034FF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C75491D019B8F9330034FF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Send To XBMC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C75491D119B8F9330034FF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Send To XBMC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C75491D319B8F9330034FF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Send To XBMC.app/Contents/MacOS/Send To XBMC";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Send To XBMCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C75491D419B8F9330034FF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Send To XBMC.app/Contents/MacOS/Send To XBMC";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Send To XBMCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75491AD19B8F9330034FF5D /* Build configuration list for PBXProject "Send To XBMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75491CD19B8F9330034FF5D /* Debug */,
+				C75491CE19B8F9330034FF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75491CF19B8F9330034FF5D /* Build configuration list for PBXNativeTarget "Send To XBMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75491D019B8F9330034FF5D /* Debug */,
+				C75491D119B8F9330034FF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C75491D219B8F9330034FF5D /* Build configuration list for PBXNativeTarget "Send To XBMCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75491D319B8F9330034FF5D /* Debug */,
+				C75491D419B8F9330034FF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75491AA19B8F9330034FF5D /* Project object */;
+}
